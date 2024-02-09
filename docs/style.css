@@ -46,6 +46,9 @@ h2 strong {
 .countdown {
   width: 596px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .countdown .bloc-time {
   float: left;

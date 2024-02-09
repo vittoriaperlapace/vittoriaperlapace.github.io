@@ -11,7 +11,7 @@ var Countdown = {
     // Initialize the countdown
     init: function () {
 
-        const targetDatetimeUTC = new Date('2024-02-24T14:00:00Z'); // Note the 'Z' indicating UTC
+        const targetDatetimeUTC = new Date('2024-02-24T12:00:00Z'); // Note the 'Z' indicating UTC
         const currentDatetime = new Date();
         const differenceInSeconds = Math.floor((targetDatetimeUTC - currentDatetime) / 1000);
 
@@ -29,15 +29,9 @@ var Countdown = {
         };
 
         // Init countdown values
-        /*this.values = {
-              hours  : this.$.hours.parent().attr('data-init-value'),
-            minutes: this.$.minutes.parent().attr('data-init-value'),
-            seconds: this.$.seconds.parent().attr('data-init-value'),
-        };*/
         this.values = { days: days, hours: hours, minutes: minutes, seconds: seconds };
 
         // Initialize total seconds
-        // this.total_seconds = this.values.hours * 60 * 60 + (this.values.minutes * 60) + this.values.seconds;
         this.total_seconds = differenceInSeconds;
 
         // Animate countdown to the end
