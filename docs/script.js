@@ -11,7 +11,7 @@ var Countdown = {
     // Initialize the countdown
     init: function () {
 
-        const targetDatetimeUTC = new Date('2024-02-10T12:00:00Z'); // Note the 'Z' indicating UTC
+        const targetDatetimeUTC = new Date('2024-02-24T14:00:00Z'); // Note the 'Z' indicating UTC
         const currentDatetime = new Date();
         const differenceInSeconds = Math.floor((targetDatetimeUTC - currentDatetime) / 1000);
 
