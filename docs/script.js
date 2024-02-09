@@ -38,7 +38,7 @@ var Countdown = {
 
         // Initialize total seconds
         // this.total_seconds = this.values.hours * 60 * 60 + (this.values.minutes * 60) + this.values.seconds;
-        this.total_seconds = seconds;
+        this.total_seconds = differenceInSeconds;
 
         // Animate countdown to the end
         this.count();
