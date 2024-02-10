@@ -2,17 +2,81 @@
 <html lang="it" >
 <head>
   <meta charset="UTF-8">
-  <title>Vittoria Per La Pace</title>
+
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/countdown.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+  <title>Vittoria Per La Pace</title>
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="wrap">  
-  <h1><strong>Vittoria</strong> Per La <strong>Pace</strong></h1>
 
-  <div class="countdown">
+	<script>
+		function shareOnFacebook(imageUrl) {
+			window.open("https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(imageUrl), "_blank", "width=600,height=400");
+		}
+	</script>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap">
+				<div class="site-navigation">
+					<div class="row g-0 align-items-center">
+						<div class="col-6 col-lg-6 d-flex flex-nowrap align-items-center">
+							<a href="index.html" class="logo m-0 float-left"><span data-i18n="event-name">Vittoria Per La Pace</span></a>
+						</div>
+						<div class="col-8 col-lg-6 text-end d-none d-lg-inline-block">
+							<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu mx-auto">
+								<!-- <li class="active"><a href="index.html">Home</a></li> -->
+                <li>
+                  <img class="mx-2 cursor-pointer" role="button" src="images/flags/en.png" height="20" onclick="Translator.changeLang('en')"/>
+                  <img class="mx-2 cursor-pointer" role="button" src="images/flags/it.png" height="20" onclick="Translator.changeLang('it')"/>
+                  <img class="mx-2 cursor-pointer" role="button" src="images/flags/uk.png" height="20" onclick="Translator.changeLang('uk')"/>
+                </li>
+								<!-- <li class="has-children">
+									<a><span>Language</span></a>
+									<ul class="dropdown text-primary
+										<li><img class="mx-2 cursor-pointer" role="button" src="images/flags/en.png" height="20" onclick="Translator.changeLang('en')"/> Eng</li>
+										<li><img class="mx-2 cursor-pointer" role="button" src="images/flags/it.png" height="20" onclick="Translator.changeLang('it')"/> Ita</li>
+										<li><img class="mx-2 cursor-pointer" role="button" src="images/flags/uk.png" height="20" onclick="Translator.changeLang('uk')"/> Uk</li>
+									</ul>
+								</li> -->
+							</ul>
+						</div>
+
+						<div class="col-6">
+							<div class="d-flex">
+								<a href="#" class="burger mt-1 ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+									<span></span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<div class="wrap text-center">  
+  <div class="fs-1"><span class="fw-800" data-i18n="victory">victory</span> <span class="fw-lighter"data-i18n="for">for</span> <span class="fw-800" data-i18n="peace">peace</span ></div>
+  <div class="fs-3 my-2"><span data-i18n="24Febbraio">24Febbraio</span></div>
+
+  <div class="countdown mb-8">
     <div class="bloc-time days" data-init-value="0">
       <span class="count-title">Giorni</span>
 
@@ -117,10 +181,55 @@
       </div>
     </div>
   </div>
+
+  <div class="section py-5 bg-blue-flag">
+    <div class="container">
+      <div class="row fs-5">
+        <div class="col-12 col-md-6">
+          <div class="d-flex flex-column gap-2 justify-content">
+            <div>
+              <img height="400" src="images/graphics/VittoriaPerLaPaceInstaPost.jpeg"/>
+            </div>
+            <!-- <button class="btn btn-primary btn-sm" onclick="shareOnFacebook(`https://scontent.cdninstagram.com/v/t51.2885-15/426225185_368957219220523_5768839302977906161_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi45MDV4MTEzMS5zZHIifQ&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=Gu92XXmtOSAAX936nPc&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI5OTA4NTIyODUxNzcyNjU0OQ%3D%3D.2-ccb7-5&oh=00_AfCtVOJfmon6IRp5156bDmixvnulGVlZBdoT_SX7fATUmg&oe=65CC0F6A&_nc_sid=10d13b`)">Condividi su Facebook</button> -->
+          </div>
+        </div>
+          <div class="col-12 col-md-6 d-flex flex-column gap-4">
+            <div><span data-i18n="event-intro">event-intro</span></div>
+            <div><span class="icon-calendar fs-1"> </span><span data-i18n="event-description">event-description</span></div>
+          </div>
+      </div>
+  
+      <div class="row ">
+  
+          <div class="col-12"  data-aos="fade-up" data-aos-delay="200" id="supportersImages">
+            <!-- Supporter Images from Javascript -->
+          </div>
+  
+      </div>
+    </div>
+  </div>
+
+  
 </div>
-<!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script><script  src="./script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/tiny-slider.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/translator.js"></script>
 
 </body>
 </html>
