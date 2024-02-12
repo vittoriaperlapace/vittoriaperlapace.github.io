@@ -22,10 +22,10 @@
 		}
 	</script>
 
-	<div class="site-mobile-menu site-navbar-target">
+	<div class="site-mobile-menu site-navbar-target bg-blue-flag">
 		<div class="site-mobile-menu-header">
 			<div class="site-mobile-menu-close">
-				<span class="icofont-close js-menu-toggle"></span>
+				<span class="icofont-close js-menu-toggle light"></span>
 			</div>
 		</div>
 		<div class="site-mobile-menu-body"></div>
@@ -43,6 +43,7 @@
 							<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu mx-auto">
 								<!-- <li class="active"><a href="index.html">Home</a></li> -->
                 <li>
+                  <span>Languages</span>
                   <img class="mx-2 cursor-pointer" role="button" src="images/flags/en.png" height="20" onclick="Translator.changeLang('en')"/>
                   <img class="mx-2 cursor-pointer" role="button" src="images/flags/it.png" height="20" onclick="Translator.changeLang('it')"/>
                   <img class="mx-2 cursor-pointer" role="button" src="images/flags/uk.png" height="20" onclick="Translator.changeLang('uk')"/>
@@ -78,7 +79,7 @@
 
   <div class="countdown mb-8">
     <div class="bloc-time days" data-init-value="0">
-      <span class="count-title">Giorni</span>
+      <span class="count-title" data-i18n="days">Giorni</span>
 
       <div class="figure days days-1">
         <span class="top">U</span>
@@ -104,7 +105,7 @@
     </div>
 
     <div class="bloc-time hours" data-init-value="24">
-      <span class="count-title">Ore</span>
+      <span class="count-title" data-i18n="hours">Ore</span>
 
       <div class="figure hours hours-1">
         <span class="top">R</span>
@@ -130,7 +131,7 @@
     </div>
 
     <div class="bloc-time min" data-init-value="0">
-      <span class="count-title">Minuti</span>
+      <span class="count-title" data-i18n="minutes">Minuti</span>
 
       <div class="figure min min-1">
         <span class="top">I</span>
@@ -156,7 +157,7 @@
     </div>
 
     <div class="bloc-time sec" data-init-value="0">
-      <span class="count-title">Secondi</span>
+      <span class="count-title" data-i18n="seconds">Secondi</span>
 
         <div class="figure sec sec-1">
         <span class="top">E</span>
@@ -185,31 +186,38 @@
   <div class="section py-5 bg-blue-flag">
     <div class="container">
       <div class="row fs-5">
-        <div class="col-12 col-md-6">
-          <div class="d-flex flex-column gap-2 justify-content">
+        <div class="col-12 col-lg-6">
+          <div class="d-flex flex-column gap-2 justify-content mb-5">
             <div>
               <img height="400" src="images/graphics/VittoriaPerLaPaceInstaPost.jpeg"/>
             </div>
-            <!-- <button class="btn btn-primary btn-sm" onclick="shareOnFacebook(`https://scontent.cdninstagram.com/v/t51.2885-15/426225185_368957219220523_5768839302977906161_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi45MDV4MTEzMS5zZHIifQ&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=Gu92XXmtOSAAX936nPc&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI5OTA4NTIyODUxNzcyNjU0OQ%3D%3D.2-ccb7-5&oh=00_AfCtVOJfmon6IRp5156bDmixvnulGVlZBdoT_SX7fATUmg&oe=65CC0F6A&_nc_sid=10d13b`)">Condividi su Facebook</button> -->
+            <!-- <button class="btn btn-primary btn-sm" onclick="shareOnFacebook(`http://vittoriaperlapace.com/images/graphics/VittoriaPerLaPaceInstaPost.jpeg`)">Condividi su Facebook</button> -->
           </div>
         </div>
-          <div class="col-12 col-md-6 d-flex flex-column gap-4">
+          <div class="col-12 col-lg-6 d-flex flex-column gap-4">
             <div><span data-i18n="event-intro">event-intro</span></div>
             <div><span class="icon-calendar fs-1"> </span><span data-i18n="event-description">event-description</span></div>
           </div>
       </div>
-  
-      <div class="row ">
-  
-          <div class="col-12"  data-aos="fade-up" data-aos-delay="200" id="supportersImages">
-            <!-- Supporter Images from Javascript -->
+    </div>
+    <div class="section sec-about-me bg-blue-flag">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 text-start" data-aos="fade-up">
+            <div class="section-heading">
+              <h3 class="heading mb-5 mx-0"><span data-i18n="supporters">supporters</span></h3>
+            </div>
           </div>
-  
+        </div>
+        <div class="row ">
+            <div class="col-12"  data-aos="fade-up" data-aos-delay="200" id="supportersImages">
+              <!-- Supporter Images from Javascript -->
+            </div>
+        </div>
       </div>
     </div>
   </div>
 
-  
 </div>
 
 
