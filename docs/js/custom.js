@@ -98,7 +98,9 @@
 		"Photoroom-20240211_212528.png",
 		"Photoroom-20240211_173250.png",
 		"Photoroom-20240211_212556.png",
-		"Photoroom-20240211_212427.png"
+		"Photoroom-20240211_212427.png",
+		"Photoroom-20240212_104103.png",
+		"Photoroom-20240212_181931.png"
 	]
 
 	// const supportersLogos = ['UaMi.jpeg', 'LiberiOltreLeIllusioni.png','RadicaliItaliani.png', 'EconomiaItalia.png'];
