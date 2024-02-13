@@ -21,7 +21,7 @@ const Translator = (function () {
 			'24Febbraio' : 'Sabato 24 Febbraio',
 			'days':'Giorni',
 			'event-description':"Con lo slogan 'Vittoria Per La Pace', il raduno inizierà alle 13:00 in Piazza Castello, e alle 14:00/14:30 partirà la marcia che si concluderà in piazza del Duomo, dove si terrà un presidio dedicato all'Ucraina, dove potremo sentire le voci di persone che hanno molto da dire, vedremo coraggio e lotta uniti per la libertà che ci porterà la Pace giusta e duratura. A presto!",
-			'event-intro':"Con lo slogan 'Vittoria Per La Pace', il raduno inizierà alle 13:00 in Piazza Castello, e alle 14:00/14:30 partirà la marcia che si concluderà in piazza del Duomo, dove si terrà un presidio dedicato all'Ucraina, dove potremo sentire le voci di persone che hanno molto da dire, vedremo coraggio e lotta uniti per la libertà che ci porterà la Pace giusta e duratura. A presto!",
+			'event-intro':" Il 24 febbraio 2024, tutto il Nord Italia si riunirà a Milano per una manifestazione dedicata al decimo anno dell’invasione russa in Ucraina e al secondo anno dell’aggressione su larga scala.",
 			'event-name' : 'Vittoria per la pace',
 			'hours': 'Ore',
 			'minutes' : 'Minuti',
