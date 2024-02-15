@@ -69,7 +69,8 @@
 		"Logo2-1.png",
 		"Marchio_Aglietta_new.png",
 		"Photoroom-20240208_215930.png",
-		"Photoroom-20240208_220351.png",
+		// "Photoroom-20240208_220351.png",
+		"Photoroom-20240213_184533.png",
 		"Photoroom-20240208_220940.png",
 		"Photoroom-20240208_222613.png",
 		"Photoroom-20240208_223643.png",
@@ -100,7 +101,8 @@
 		"Photoroom-20240211_212556.png",
 		"Photoroom-20240211_212427.png",
 		"Photoroom-20240212_104103.png",
-		"Photoroom-20240212_181931.png"
+		"Photoroom-20240212_181931.png",
+		"IMG-20240214-WA0017.png"
 	]
 
 	// const supportersLogos = ['UaMi.jpeg', 'LiberiOltreLeIllusioni.png','RadicaliItaliani.png', 'EconomiaItalia.png'];
